@@ -6,7 +6,7 @@ body {
 }
 
 .my_container {
-  width: 75vw;
+  width: 60vw;
   margin: 20px auto;
   background: #303742;
   border-radius: 12px;
@@ -172,6 +172,9 @@ h2 {
 @media screen and (max-width: 600px) {
   body {
     font-size: 12px;
+  }
+  .my_container {
+    width: 70vw;
   }
   h1 {
     text-align: center;
