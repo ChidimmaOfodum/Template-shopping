@@ -1,0 +1,195 @@
+body {
+  background: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg);
+  background-size: cover;
+  color: whitesmoke;
+  margin: 0;
+}
+
+.my_container {
+  width: 50vw;
+  margin: 20px auto;
+  background: #303742;
+  border-radius: 12px;
+  padding-bottom: 50px;
+}
+img {
+  width: 100%;
+}
+.image-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#previous, #next{
+  font-size: smaller;
+  width: fit-content;
+  border-radius: 12px;
+}
+
+.button-container{
+  width: 100;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 12px;
+  height: 10px;
+  position: relative;
+  top: 0.5em;
+  left: 3%;
+}
+.lbox {
+  background: #4856fc;
+  width: 12px;
+  height: 12px;
+  box-shadow: 12.2px 12.2px #4856fc;
+}
+
+.right-arrow,
+.left-arrow {
+  font-size: 15.5px;
+  transform: rotateZ(45deg);
+  color: #7fe3e8;
+}
+.right-arrow {
+  position: absolute;
+  left: 15.5px;
+  top: -1px;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 9.4px;
+}
+
+.main1 {
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.my_input {
+  display: flex;
+  gap: 10px;
+}
+input {
+  width: 60%;
+}
+button {
+  width: 25%;
+  background: #4856fc;
+  border: 0;
+  color: white;
+}
+
+.test-logo {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.discover-logo {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+
+.first,
+.third {
+  transform: rotateZ(45deg);
+  color: #7fe3e8;
+}
+
+.second,
+.fourth {
+  transform: rotateZ(-45deg);
+  color: #4856fc;
+}
+.first {
+  position: absolute;
+}
+
+.second {
+  position: absolute;
+  left: 1em;
+}
+.third {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.fourth {
+  position: absolute;
+  top: 1em;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 8px;
+  height: 8px;
+  background: #4856fc;
+  margin: 0;
+}
+
+.second-logo {
+  display: grid;
+  grid-template-columns: 8px 8px 8px;
+  grid-gap: 3px;
+}
+
+.box-1 {
+  grid-column: 1/2;
+}
+.box-2 {
+  grid-column: 2/3;
+}
+.box-3 {
+  grid-column: 3/4;
+}
+.second-logo .second-row {
+  background: #7fe3e8;
+}
+#box-6,
+#box-7,
+#box-9 {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  opacity: 0.5;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .my_input {
+    display: block;
+  }
+  button {
+    display: block;
+    margin-top: 7px;
+    width: 93%;
+  }
+
+  input {
+    width: 90%;
+  }
+}
+
+textarea{
+  width: 70%;
+}
